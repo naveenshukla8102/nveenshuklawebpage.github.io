@@ -25,9 +25,10 @@
     background-size: cover;
     color: white;
   }
-#sent1
+#text-slide
 {
   font-size: 8vw;
+  height: 8vw;
   font-family: 'Rubik Iso', cursive;
    overflow: hidden;
    white-space: nowrap;
@@ -37,7 +38,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    width: 8em;
-   animation: sentence1 4s steps(13) infinite;
+   animation: sentence1 4s steps(14) infinite;
+
 }
 @keyframes sentence1
 {
@@ -45,6 +47,20 @@
    1% {opacity: 1;}
    100% {width: 100%; opacity: 1;}
 }
+#text-slide ul{
+list-style-type: none;
+}
+// #text-slide  li{
+//   animation: sentence2 4s steps(3) infinite;
+//   width: 100%;
+// }
+
+// @keyframes sentence2
+// {
+//    0% {top:0vw}
+//    50% {top:-8vw;}
+//    100% {top:-16vw}
+// }
 
 
 
