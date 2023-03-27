@@ -21,3 +21,17 @@ var message = document.getElementById("message").value;
  var form = document.getElementById('form');
  form.style.display = 'none';
 }
+
+function changenav(){
+var scroll = window.scrollY;
+var navbar = document.getElementById('navbar');
+    if (scroll < 150){
+
+        navbar.classList.remove('navafterscroll');
+    }
+    else{
+
+        navbar.classList.add('navafterscroll');
+    }
+}
+window.addEventListener('scroll',changenav);

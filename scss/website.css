@@ -4,6 +4,11 @@
   text-transform: uppercase;
 }
 
+.navafterscroll {
+  background-color: #fff;
+  border-bottom: black 1px solid;
+}
+
 @keyframes change-colour {
   0% {
     background: rgba(14, 104, 104, 0.7);
@@ -36,7 +41,6 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: 8em;
   animation: sentence1 4s steps(14) infinite;
 }
 
