@@ -24,12 +24,27 @@
     background-image: url(/img/about1.jpg);
     background-size: cover;
     color: white;
-    h2{
-        font-size: 8vw;
-        font-family: 'Rubik Iso', cursive;
-    }
+  }
+#sent1
+{
+  font-size: 8vw;
+  font-family: 'Rubik Iso', cursive;
+   overflow: hidden;
+   white-space: nowrap;
+   opacity: 0;
+   background: -webkit-linear-gradient(right,#2fc4ff, #39c747);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   width: 8em;
+   animation: sentence1 4s steps(13) infinite;
 }
-
+@keyframes sentence1
+{
+   0% {width: 0; opacity: 0;}
+   1% {opacity: 1;}
+   100% {width: 100%; opacity: 1;}
+}
 
 
 
